@@ -18,7 +18,11 @@ Indice:
 10. [Dificultades encontradas](#Dificultades encontradas)
 11. [Conclusiones](#conclusiones)
 
-1. Introducción
+
+
+
+
+## 1.Introducción
 
 En este laboratorio se realizó el diseño de una tarjeta de entrenamiento para microprocesadores utilizando el software Proteus. El objetivo principal fue desarrollar el esquema electrónico de una tarjeta basada en el microcontrolador PIC16F877A, incorporando los elementos necesarios para su funcionamiento y comunicación con dispositivos externos.
 

@@ -237,7 +237,7 @@ Correctas conexiones TX/RX.
 En esta sección se deben colocar las capturas del proceso realizado.
 
 8.1 Esquemático en Proteus
-![Esquemático en Proteus](Imagenes/esquema proteus)
+![Esquemático en Proteus](Microprocesadores/Imagenes/esquema proteus)
 
 Figura 1. Esquemático de la tarjeta de entrenamiento desarrollado en Proteus.
 

@@ -237,12 +237,12 @@ Correctas conexiones TX/RX.
 En esta sección se deben colocar las capturas del proceso realizado.
 
 8.1 Esquemático en Proteus
-![Esquemático en Proteus](imagenes/esquematico.png)
+![Esquemático en Proteus](Imagenes/esquema proteus)
 
 Figura 1. Esquemático de la tarjeta de entrenamiento desarrollado en Proteus.
 
 8.2 Diseño PCB
-![Diseño PCB](imagenes/pcb.png)
+![Diseño PCB](Imagenes/esquema pcb)
 
 Figura 2. Diseño de la PCB de la tarjeta de entrenamiento.
 
@@ -250,7 +250,7 @@ Figura 2. Diseño de la PCB de la tarjeta de entrenamiento.
 
 Si Proteus les permite mostrar la placa en vista 3D:
 
-![Vista 3D de la PCB](imagenes/pcb_3d.png)
+![Vista 3D de la PCB](Imagenes/diseño pcb)
 
 Figura 3. Vista tridimensional de la tarjeta diseñada.
 

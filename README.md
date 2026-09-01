@@ -2,6 +2,8 @@
 
 # Integrantes
 
+
+
 # Informe
 
 Indice:
@@ -30,8 +32,9 @@ El diseño incluye el circuito de alimentación, sistema de reloj mediante crist
 
 Posteriormente, el circuito esquemático fue utilizado como base para realizar el diseño de la PCB, organizando físicamente los componentes y sus conexiones para obtener una tarjeta funcional y apta para fabricación.
 
-2. Objetivos
-2.1 Objetivo general
+## 2. Objetivos
+
+* 2.1 Objetivo general
 
 Diseñar una tarjeta de entrenamiento basada en el microcontrolador PIC16F877A, utilizando Proteus para desarrollar el esquema electrónico y el diseño de la PCB.
 

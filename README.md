@@ -2,7 +2,9 @@
 
 # Integrantes
 
-
+* Diego Alexander Barón Pacheco 
+* Fredy Vicente Patiño Garzon 
+* Santiago Escamilla Marquez 
 
 # Informe
 

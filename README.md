@@ -76,12 +76,13 @@ En el diseño se utiliza un cristal de cuarzo, conectado a los pines correspondi
 
 El circuito incluye además dos capacitores asociados al cristal:
 
+```text
         C1
          |
 OSC1 ----X1---- OSC2
          |
         C2
-
+```
 Los capacitores ayudan al correcto funcionamiento del oscilador.
 
 * **3.3 Circuito de reset**
@@ -162,8 +163,10 @@ El pulsador permite generar manualmente la señal de reinicio del microcontrolad
 
 El cristal se conecta entre los pines:
 
+```text
 OSC1
 OSC2
+```
 
 del PIC16F877A.
 
@@ -184,12 +187,12 @@ Los conectores permiten acceder a señales de los diferentes puertos sin necesid
 El MAX232 se conecta al PORTC del PIC, específicamente utilizando las líneas asociadas a la comunicación serial.
 
 Las señales principales son:
-
+```text
 PIC16F877A          MAX232
 
 RC6/TX  ----------> TX
 RC7/RX  <---------- RX
-
+```
 El MAX232 realiza la adaptación necesaria para la comunicación mediante RS-232.
 
 La salida del MAX232 se conecta posteriormente al conector DB9.

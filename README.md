@@ -203,7 +203,7 @@ El resultado del diseño esquemático realizado en Proteus fue:
 
 ***Figura 1. Esquema electrónico de la tarjeta de entrenamiento*** 
 
-![Esquema electrónico](Imagenes/esquema_proteus.jpeg)
+<img src="Imagenes/esquema_proteus." width="800">
 
 
 ## 7. Diseño de la PCB

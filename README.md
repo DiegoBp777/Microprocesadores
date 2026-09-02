@@ -8,25 +8,24 @@
 
 # Informe
 
-Indice:
+## Índice
 
-1. [Introduccion](#Introduccion)
-2. [Objetivos](#Objetivos)
-3. [Marco teórico](#Marco teórico)
-4. [Materiales y componentes](#Materiales y componentes)
-5. [Diseño del circuito esquemático](#Diseño del circuito esquemático)
-6. [Esquema realizado en Proteus](#Esquema realizado en Proteus)
-7. [Diseño de la PCB](#Diseño de la PCB)
-8. [Evidencias](#Evidencias)
-9. [Verificación del diseño](#Verificación del diseño)
-10. [Dificultades encontradas](#Dificultades encontradas)
-11. [Conclusiones](#conclusiones)
-
-
+1. [Introducción](#1-introducción)
+2. [Objetivos](#2-objetivos)
+3. [Marco teórico](#3-marco-teórico)
+4. [Materiales y componentes](#4-materiales-y-componentes)
+5. [Diseño del circuito esquemático](#5-diseño-del-circuito-esquemático)
+6. [Esquema realizado en Proteus](#6-esquema-realizado-en-proteus)
+7. [Diseño de la PCB](#7-diseño-de-la-pcb)
+8. [Evidencias](#8-evidencias)
+9. [Verificación del diseño](#9-verificación-del-diseño)
+10. [Dificultades encontradas](#10-dificultades-encontradas)
+11. [Conclusiones](#11-conclusiones)
 
 
 
-## 1.Introducción
+
+## 1. Introducción
 
 En este laboratorio se realizó el diseño de una tarjeta de entrenamiento para microprocesadores utilizando el software Proteus. El objetivo principal fue desarrollar el esquema electrónico de una tarjeta basada en el microcontrolador PIC16F877A, incorporando los elementos necesarios para su funcionamiento y comunicación con dispositivos externos.
 
@@ -36,11 +35,11 @@ Posteriormente, el circuito esquemático fue utilizado como base para realizar e
 
 ## 2. Objetivos
 
-* 2.1 Objetivo general
+* **2.1 Objetivo general**
 
 Diseñar una tarjeta de entrenamiento basada en el microcontrolador PIC16F877A, utilizando Proteus para desarrollar el esquema electrónico y el diseño de la PCB.
 
-* 2.2 Objetivos específicos
+* **2.2 Objetivos específicos**
 
 * Diseñar el circuito esquemático de la tarjeta de entrenamiento en Proteus.
 * Implementar correctamente las conexiones del microcontrolador PIC16F877A.
@@ -53,7 +52,7 @@ Diseñar una tarjeta de entrenamiento basada en el microcontrolador PIC16F877A, 
   
 ## 3. Marco teórico
 
-* 3.1 Microcontrolador PIC16F877A
+* **3.1 Microcontrolador PIC16F877A**
 
 El **PIC16F877A** es un microcontrolador de la familia PIC que integra en un solo dispositivo una unidad de procesamiento, memoria y diferentes periféricos para el desarrollo de sistemas electrónicos.
 
@@ -69,7 +68,7 @@ Estos puertos permiten conectar sensores, actuadores, módulos de comunicación 
 
 En la tarjeta diseñada, los diferentes puertos son llevados a conectores para facilitar su utilización durante las prácticas de laboratorio.
 
-* 3.2 Circuito de reloj
+* **3.2 Circuito de reloj**
 
 Para que el microcontrolador pueda ejecutar instrucciones necesita una señal de reloj.
 
@@ -85,7 +84,7 @@ OSC1 ----X1---- OSC2
 
 Los capacitores ayudan al correcto funcionamiento del oscilador.
 
-* 3.3 Circuito de reset
+* **3.3 Circuito de reset**
 
 El circuito de reset permite reiniciar el microcontrolador y llevarlo a un estado inicial conocido.
 
@@ -97,7 +96,7 @@ En el diseño se utiliza:
 
 La resistencia mantiene el pin en el nivel lógico correspondiente durante el funcionamiento normal, mientras que el pulsador permite realizar el reinicio manual.
 
-* 3.4 Comunicación serial
+* **3.4 Comunicación serial**
 
 La tarjeta también incorpora una interfaz para comunicación serial mediante el circuito integrado **MAX232.**
 
@@ -116,16 +115,18 @@ También se utilizan capacitores externos asociados al MAX232 para su funcionami
 
 Para la construcción del diseño se utilizaron los siguientes componentes principales:
 
-Componente	Cantidad	Función
-PIC16F877A	1	Microcontrolador principal
-MAX232	1	Conversión de niveles para comunicación RS-232
-Cristal de cuarzo	1	Generación de señal de reloj
-Capacitores de 15 pF	2	Circuito del oscilador
-Capacitor de 1 µF	Varios	Circuito del MAX232
-Capacitor de 100 nF	1	Desacoplamiento
-Resistencia de 10 kΩ	1	Circuito de reset
-Pulsador	1	Reset del microcontrolador
-Conectores	Varios	Acceso a puertos y comunicación
+| Componente           | Cantidad | Función                                        |
+| -------------------- | -------: | ---------------------------------------------- |
+| PIC16F877A           |        1 | Microcontrolador principal                     |
+| MAX232               |        1 | Conversión de niveles para comunicación RS-232 |
+| Cristal de cuarzo    |        1 | Generación de señal de reloj                   |
+| Capacitores de 15 pF |        2 | Circuito del oscilador                         |
+| Capacitor de 1 µF    |   Varios | Circuito del MAX232                            |
+| Capacitor de 100 nF  |        1 | Desacoplamiento                                |
+| Resistencia de 10 kΩ |        1 | Circuito de reset                              |
+| Pulsador             |        1 | Reset del microcontrolador                     |
+| Conectores           |   Varios | Acceso a puertos y comunicación                |
+
 
 
 ## 5. Diseño del circuito esquemático
@@ -135,7 +136,7 @@ El circuito fue desarrollado utilizando Proteus, tomando como referencia el esqu
 La tarjeta se organizó alrededor del microcontrolador PIC16F877A, al cual se conectaron los diferentes elementos necesarios para su funcionamiento.
 
 
-* 5.1 Microcontrolador
+* **5.1 Microcontrolador**
 
 El componente principal del circuito es el PIC16F877A.
 
@@ -151,13 +152,13 @@ En el esquema desarrollado se observan conexiones correspondientes a:
 
 Esto permite utilizar la tarjeta como plataforma de pruebas para diferentes aplicaciones de microcontroladores.
 
-* 5.2 Conexión del reset
+* **5.2 Conexión del reset**
 
 El pin **MCLR/VPP** se conecta al circuito de reset mediante una resistencia de **10 kΩ** y un pulsador.
 
 El pulsador permite generar manualmente la señal de reinicio del microcontrolador.
 
-* 5.3 Circuito de oscilador
+* **5.3 Circuito de oscilador**
 
 El cristal se conecta entre los pines:
 
@@ -170,7 +171,7 @@ Se utilizan dos capacitores de **15 pF** asociados al cristal.
 
 Esta configuración permite proporcionar al microcontrolador la señal necesaria para ejecutar el programa.
 
-* 5.4 Conectores de los puertos
+* **5.4 Conectores de los puertos**
 
 Los puertos del microcontrolador fueron llevados a conectores externos.
 
@@ -178,7 +179,7 @@ Esto facilita la conexión de elementos externos durante futuras prácticas.
 
 Los conectores permiten acceder a señales de los diferentes puertos sin necesidad de modificar directamente el circuito principal.
 
-* 5.5 Comunicación mediante MAX232
+* **5.5 Comunicación mediante MAX232**
 
 El MAX232 se conecta al PORTC del PIC, específicamente utilizando las líneas asociadas a la comunicación serial.
 
@@ -218,13 +219,13 @@ Durante el diseño se tuvo en cuenta:
 * Separación adecuada entre las diferentes pistas.
 * Facilidad de montaje y posterior utilización de la tarjeta.
 
-## 7.1 Distribución de componentes
+* **7.1 Distribución de componentes**
 
 El PIC16F877A se ubicó como componente principal de la tarjeta, mientras que los conectores se distribuyeron alrededor de este para facilitar el acceso a los puertos.
 
 El MAX232 se ubicó cerca del conector de comunicación serial, reduciendo la longitud de las conexiones asociadas a TX y RX.
 
-* 7.2 Pistas de la PCB
+* **7.2 Pistas de la PCB**
 
 Las pistas fueron diseñadas para conectar eléctricamente los componentes de acuerdo con el esquema desarrollado previamente.
 
@@ -241,17 +242,17 @@ Antes de considerar terminado el diseño se debe verificar:
 * 
 ## 8. Evidencias
 
-* 8.1 Esquemático en Proteus
+* **8.1 Esquemático en Proteus**
 ![Esquemático en Proteus](Microprocesadores/Imagenes/esquema proteus)
 
 ***Figura 1. Esquemático de la tarjeta de entrenamiento desarrollado en Proteus.***
 
-* 8.2 Diseño PCB
+* **8.2 Diseño PCB**
 ![Diseño PCB](Imagenes/esquema pcb)
 
 ***Figura 2. Diseño de la PCB de la tarjeta de entrenamiento.***
 
-* 8.3 Vista de la PCB
+* **8.3 Vista de la PCB**
 * 
 ![Vista 3D de la PCB](Imagenes/diseño pcb)
 

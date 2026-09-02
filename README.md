@@ -2,9 +2,9 @@
 
 # Integrantes
 
-* Diego Alexander Barón Pacheco 
-* Fredy Vicente Patiño Garzon 
-* Santiago Escamilla Marquez 
+* Diego Alexander Barón Pacheco / 140932
+* Fredy Vicente Patiño Garzon / 140753
+* Santiago Escamilla Marquez / 140843
 
 # Informe
 

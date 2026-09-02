@@ -201,10 +201,9 @@ La salida del MAX232 se conecta posteriormente al conector DB9.
 
 El resultado del diseño esquemático realizado en Proteus fue:
 
+<img src="Imagenes/esquema_proteus.jpeg" alt="Esquemático en Proteus" width="850">
+
 ***Figura 1. Esquema electrónico de la tarjeta de entrenamiento*** 
-
-<img src="Imagenes/esquema_proteus." width="800">
-
 
 ## 7. Diseño de la PCB
 
@@ -247,7 +246,7 @@ Antes de considerar terminado el diseño se debe verificar:
 
 ### 8.1 Esquemático en Proteus
 
-<img src="Imagenes/esquema_proteus.jpeg" alt="Esquemático en Proteus" width="700">
+<img src="Imagenes/esquema_proteus.jpeg" alt="Esquemático en Proteus" width="850">
 
 ***Figura 1. Esquemático de la tarjeta de entrenamiento desarrollado en Proteus.***
 
@@ -259,7 +258,7 @@ Antes de considerar terminado el diseño se debe verificar:
 
 ### 8.3 Vista de la PCB
 
-<img src="Imagenes/diseno_pcb.jpeg" alt="Vista de la PCB" width="700">
+<img src="Imagenes/diseño_pcb.jpeg" alt="Vista de la PCB" width="500">
 
 ***Figura 3. Vista de la PCB de la tarjeta de entrenamiento.***
 ## 9. Verificación del diseño

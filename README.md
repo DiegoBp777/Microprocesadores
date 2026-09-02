@@ -242,29 +242,26 @@ Antes de considerar terminado el diseño se debe verificar:
 * Correcta conexión del cristal.
 * Correcta conexión del circuito de reset.
 * Correctas conexiones TX/RX.
-* 
-## 8. Evidencias
-
+  
 ## 8. Evidencias
 
 ### 8.1 Esquemático en Proteus
 
-![Esquemático en Proteus](Imagenes/esquema_proteus.jpeg)
+<img src="Imagenes/esquema_proteus.jpeg" alt="Esquemático en Proteus" width="700">
 
 ***Figura 1. Esquemático de la tarjeta de entrenamiento desarrollado en Proteus.***
 
 ### 8.2 Diseño PCB
 
-![Diseño PCB](Imagenes/esquema_pcb.jpeg)
+<img src="Imagenes/esquema_pcb.jpeg" alt="Diseño PCB" width="700">
 
 ***Figura 2. Diseño de la PCB de la tarjeta de entrenamiento.***
 
 ### 8.3 Vista de la PCB
 
-![Vista de la PCB](Imagenes/diseno_pcb.jpeg)
+<img src="Imagenes/diseno_pcb.jpeg" alt="Vista de la PCB" width="700">
 
 ***Figura 3. Vista de la PCB de la tarjeta de entrenamiento.***
-
 ## 9. Verificación del diseño
 
 Una vez realizado el esquemático, se revisaron las conexiones de los principales bloques del circuito.

@@ -35,11 +35,11 @@ Posteriormente, el circuito esquemático fue utilizado como base para realizar e
 
 ## 2. Objetivos
 
-* **2.1 Objetivo general**
+**Objetivo general**
 
 Diseñar una tarjeta de entrenamiento basada en el microcontrolador PIC16F877A, utilizando Proteus para desarrollar el esquema electrónico y el diseño de la PCB.
 
-* **2.2 Objetivos específicos**
+**Objetivos específicos**
 
 * Diseñar el circuito esquemático de la tarjeta de entrenamiento en Proteus.
 * Implementar correctamente las conexiones del microcontrolador PIC16F877A.

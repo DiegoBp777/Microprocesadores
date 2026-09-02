@@ -245,21 +245,25 @@ Antes de considerar terminado el diseño se debe verificar:
 * 
 ## 8. Evidencias
 
-* **8.1 Esquemático en Proteus**
-![Esquemático en Proteus](Microprocesadores/Imagenes/esquema proteus)
+## 8. Evidencias
+
+### 8.1 Esquemático en Proteus
+
+![Esquemático en Proteus](Imagenes/esquema_proteus.jpeg)
 
 ***Figura 1. Esquemático de la tarjeta de entrenamiento desarrollado en Proteus.***
 
-* **8.2 Diseño PCB**
-![Diseño PCB](Imagenes/esquema pcb)
+### 8.2 Diseño PCB
+
+![Diseño PCB](Imagenes/esquema_pcb.jpeg)
 
 ***Figura 2. Diseño de la PCB de la tarjeta de entrenamiento.***
 
-* **8.3 Vista de la PCB**
-* 
-![Vista 3D de la PCB](Imagenes/diseño pcb)
+### 8.3 Vista de la PCB
 
-***Figura 3. Vista tridimensional de la tarjeta diseñada.***
+![Vista de la PCB](Imagenes/diseno_pcb.jpeg)
+
+***Figura 3. Vista de la PCB de la tarjeta de entrenamiento.***
 
 ## 9. Verificación del diseño
 
